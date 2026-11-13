@@ -1,0 +1,160 @@
+.nav {
+  background-color: none;
+  margin: 0px;
+  padding: 90px;
+  border: 0px, solid, black;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin:0px;
+    padding: 20px;
+    color: rgb(41, 41, 41);
+    background-color: white;
+    border-radius: 40px;
+
+}
+.logo{
+    width: 250px;
+    margin: 0px;
+    padding: 20px;
+}
+.box {
+  text-align: center;
+  margin-top: 120px;
+}
+.item {
+  margin-bottom: 40px;
+  font-size: 17px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 620;
+  background-color:  rgb(252, 252, 250);
+  border-radius: 50px;
+  height: 40px;
+  width: 130px;
+  transition: 0.3s;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.item:hover{
+    color: whitesmoke;
+    height: 43px;
+    background-color: rgb(255, 123, 0)}
+
+
+body {
+  margin: 0px;
+  background-color: rgb(255, 244, 165);
+  background-image: url('Background.jpg'); /* Inserisci il nome o il percorso della tua immagine */
+  background-size: cover;                    /* Ridimensiona l'immagine per coprire tutto lo schermo */
+  background-position: center;               /* Centra l'immagine nello sfondo */
+  background-repeat: no-repeat;              /* Evita che l'immagine si ripeta in tile */
+  background-attachment: fixed;
+}
+li {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+  display: flex;
+}
+
+figure {
+  margin: 0px;
+    border: 3px, solid, rgb(243, 242, 242);
+    transition: 0.3s;
+    background-color: rgb(255, 123, 0);
+}
+.panino {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 123, 0);
+}
+.panino:hover{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-radius: 50px;
+}
+figure:hover{
+    border: 7px, solid, rgb(255, 123, 0);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+
+figcaption {
+  height: 30px;
+  margin: 0px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  transition: 0.3s;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colonne di uguale larghezza */
+  gap: 0px; /* Spazio tra le figure */
+  margin-bottom: 300px;
+}
+
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.help {
+  position: fixed;
+  right: 20px;
+  top: 610px; /* oppure bottom: 20px se preferisci ancorarla in basso */
+  width: 90px;
+  z-index: 9999; /* serve a garantirne la visibilità sopra ad altri elementi */
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.35));
+}
+.help2 { 
+  color: white;
+  position: fixed;
+  right: 100px;
+  top: 630px; /* oppure bottom: 20px se preferisci ancorarla in basso */
+  width: 90px;
+  z-index: 9999; /* serve a garantirne la visibilità sopra ad altri elementi */
+  text-align: center;
+  width: 200px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+}
+
+.footer{
+    background-color: brown;
+    height: 50px;
+      text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: white;
+}
